@@ -1,0 +1,14 @@
+import java.util.scanner
+class Number
+{
+public static voidmain(string args[])
+{
+scanner sc=new scanner(system.in);
+system.out.println("enter a number");
+int num=sc.nxtInt();
+if(num%2==0)
+system.out.println("the given number is even");
+else
+system.out.println("the given number is odd");
+}
+}
